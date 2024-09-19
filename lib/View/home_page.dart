@@ -7,6 +7,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_kepper/Controller/FirestoreHelper.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class home_page extends StatefulWidget {
   const home_page({Key? key}) : super(key: key);
@@ -42,6 +43,8 @@ class _home_pageState extends State<home_page> {
           IconButton(
               onPressed: () async {
                 await AuthHelper.authHelper.signOutUser();
+                SharedPreferences prefs = await SharedPreferences.getInstance();
+                await prefs.setBool('user_login', false);
                 ScaffoldMessenger.of(context).showSnackBar(
                     SnackBar(content: Text("User signed out successfully...")));
                 Navigator.of(context).push(MaterialPageRoute(
