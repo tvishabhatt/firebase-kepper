@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>589729258614-fgsakme79gngcshrjoq5uksq6aofdohj.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.589729258614-fgsakme79gngcshrjoq5uksq6aofdohj</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>589729258614-q6g5sdda6qvjuvg189j1h98qas0lcos5.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB_oBYJN6N3eR_zqAqDw8KTakM99tO4tVo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>589729258614</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.firebaseKepper</string>
+	<key>PROJECT_ID</key>
+	<string>firebas-kepper</string>
+	<key>STORAGE_BUCKET</key>
+	<string>firebas-kepper.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:589729258614:ios:87b8063b74809728241357</string>
+</dict>
+</plist>

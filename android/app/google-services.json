@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "589729258614",
+    "project_id": "firebas-kepper",
+    "storage_bucket": "firebas-kepper.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589729258614:android:eb6d8487f598c56b241357",
+        "android_client_info": {
+          "package_name": "com.example.firebase_kepper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "589729258614-q6g5sdda6qvjuvg189j1h98qas0lcos5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebase_kepper",
+            "certificate_hash": "3badd407e7fde79e960051dfe1dd189acd93e89d"
+          }
+        },
+        {
+          "client_id": "589729258614-fo2a710eh6i4jb8ibvepdvbinjjbv8k3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBs5zIfDRP9LOANNshLSV9shO482cX6Vnk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "589729258614-fo2a710eh6i4jb8ibvepdvbinjjbv8k3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "589729258614-fgsakme79gngcshrjoq5uksq6aofdohj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.firebaseKepper"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
